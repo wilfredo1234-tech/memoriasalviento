@@ -75,7 +75,7 @@ const NavbarMobile = () => {
                     <Link href="/routes/cuidador" className="block hover:text-primary" onClick={handleLinkClick}>
                       Cuidador
                     </Link>
-                    <Link href="/routes/familiar" className="block hover:text-primary" onClick={handleLinkClick}>
+                    <Link href="/routes/familia" className="block hover:text-primary" onClick={handleLinkClick}>
                       Familiar
                     </Link>
                     <Link href="/routes/paciente" className="block hover:text-primary" onClick={handleLinkClick}>
