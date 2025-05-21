@@ -1,4 +1,6 @@
 import PatientProfileBooklets from "./components/PatientProfileBooklets";
+import PreciosPaciente from "./components/PreciosPaciente";
+import VideosPaciente from "./components/VideosPaciente";
 
 export default function PacientePage() {
   return (
@@ -49,6 +51,8 @@ export default function PacientePage() {
 
         {/* Cuadernillos */}
         <PatientProfileBooklets />
+         <VideosPaciente />
+         <PreciosPaciente />
       </main>
     </div>
   );

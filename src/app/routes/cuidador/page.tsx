@@ -6,6 +6,7 @@ import { CuidadorInfo } from "./component/CuidadorInfo";
 import { CuidadorQuiz } from "./component/CuidadorAccordion";
 import ContenidoCuidador3 from "./component/ContenidoCuidador3";
 import Image from "next/image"; // Importar Image
+import CuidadorPrecios from "./component/CuidadorPrecios";
 
 const CuidadorPage = () => {
   return (
@@ -75,6 +76,7 @@ const CuidadorPage = () => {
       <section className="max-w-7xl mx-auto px-4 md:px-8 py-16 space-y-12">
         <CuidadorInfo />
         <ContenidoCuidador3 />
+        <CuidadorPrecios />
         <CuidadorQuiz />
       </section>
 

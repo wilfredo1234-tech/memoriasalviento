@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/consulta*.png
+public/consulta*.png
+public/Tarifascuidador.pdf
+public/Tarifasfamilia.pdf
+public/Tarifaspaciente.pdf

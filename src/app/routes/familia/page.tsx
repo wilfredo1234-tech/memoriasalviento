@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import FamilyProfileCartillas from "./components/FamilyProfileCartillas";
 import { Handshake, Users } from "lucide-react";
 import Image from "next/image"; // Importación del componente Image
+import PreciosFamilia from "./components/PreciosFamilia";
 
 export default function FamilyProfilePage() {
   return (
@@ -92,6 +93,7 @@ export default function FamilyProfilePage() {
 
         {/* CARTILLAS DEL PERFIL FAMILIAR */}
         <FamilyProfileCartillas />
+        <PreciosFamilia />
       </div>
     </section>
   );
