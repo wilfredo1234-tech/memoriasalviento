@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import Image from "next/image"; // Importación del componente Image
+import Image from "next/image";
 
 const booklets = [
   {
@@ -70,29 +70,29 @@ export default function PatientProfileBooklets() {
             key={idx}
             className="relative bg-white rounded-xl shadow-md"
           >
-            {/* Etiqueta PDF */}
-            <div className="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-full font-semibold">
-              PDF
-            </div>
-            {/* Etiqueta Año */}
-            <div className="absolute top-3 right-3 bg-cyan-400 text-white text-xs px-2 py-1 rounded-full font-semibold">
-              2025
-            </div>
+            {/* Imagen + etiquetas en contenedor relative */}
+            <div className="relative w-full h-60 bg-gray-200 overflow-hidden rounded-t-xl">
+              {/* Etiqueta PDF */}
+              <div className="absolute top-3 left-3 z-10 bg-red-500 text-white text-xs px-2 py-1 rounded-full font-semibold">
+                PDF
+              </div>
+              {/* Etiqueta Año */}
+              <div className="absolute top-3 right-3 z-10 bg-cyan-400 text-white text-xs px-2 py-1 rounded-full font-semibold">
+                2025
+              </div>
 
-            {/* Imagen usando Next.js Image */}
-            <div className="w-full h-60 bg-gray-200 flex items-center justify-center">
               <Image
                 src={item.image}
                 alt={item.title}
-                className="w-full h-full object-cover rounded-t-xl"
-                width={500}  // Ajusta el tamaño según lo necesario
-                height={240} // Ajusta el tamaño según lo necesario
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
             </div>
 
             {/* Contenido */}
             <CardContent className="py-6 text-center space-y-3">
-              <p className="text-lg font-semibold text-gray-800">{`${item.title}`}</p>
+              <p className="text-lg font-semibold text-gray-800">{item.title}</p>
               <a
                 href={item.link}
                 target="_blank"
