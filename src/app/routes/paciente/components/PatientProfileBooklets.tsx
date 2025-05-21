@@ -12,42 +12,42 @@ const booklets = [
   },
   {
     title: "Atención",
-    image: "/4.jpg",
+    image: "/atencion.png",
     link: "/cuadernillos/atencion.pdf",
   },
   {
     title: "Lenguaje",
-    image: "/4.jpg",
+    image: "/lenguaje.png",
     link: "/cuadernillos/lenguaje.pdf",
   },
   {
     title: "Sensación",
-    image: "/4.jpg",
+    image: "/sensacion.png",
     link: "/cuadernillos/sensacion.pdf",
   },
   {
     title: "Cálculo",
-    image: "/4.jpg",
+    image: "/calculo.png",
     link: "/cuadernillos/calculo.pdf",
   },
   {
     title: "Grafomotricidad",
-    image: "/4.jpg",
+    image: "/gramo.png",
     link: "/cuadernillos/grafomotricidad.pdf",
   },
   {
     title: "Percepción",
-    image: "/4.jpg",
+    image: "/percepcion.png",
     link: "/cuadernillos/percepcion.pdf",
   },
   {
     title: "Aprendizaje",
-    image: "/4.jpg",
+    image: "/aprendizaje.png",
     link: "/cuadernillos/aprendizaje.pdf",
   },
   {
     title: "Funciones Ejecutivas",
-    image: "/4.jpg",
+    image: "/funciones.png",
     link: "/cuadernillos/funciones.pdf",
   },
 ];
