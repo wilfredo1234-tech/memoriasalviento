@@ -51,7 +51,6 @@ const NavbarMobile = () => {
           <nav className="flex flex-col h-full justify-between">
             <div className="space-y-5 text-gray-800 font-medium text-base">
               <Link href="/routes/sobre-nosotros" className="flex items-center gap-2 hover:text-primary transition-colors" onClick={handleLinkClick}>
-              
                 <Landmark className="h-5 w-5" /> Institución
               </Link>
               <Link href="#" className="flex items-center gap-2 hover:text-primary transition-colors" onClick={handleLinkClick}>
@@ -89,19 +88,19 @@ const NavbarMobile = () => {
             <div className="pt-6 space-y-3">
               <Button
                 onClick={handleOpenPago}
-                className="w-full bg-yellow-400 text-gray-900 hover:bg-yellow-500 transition-colors"
+                className="w-full bg-yellow-400 text-gray-900 hover:bg-yellow-500 transition-colors rounded-full"
               >
                 <CreditCard className="h-4 w-4 mr-2" /> Realiza tu pago
               </Button>
               <Button
                 onClick={handleOpenFinanciamiento}
-                className="w-full bg-green-500 text-white hover:bg-green-600 transition-colors"
+                className="w-full bg-green-500 text-white hover:bg-green-600 transition-colors rounded-full"
               >
                 <DollarSign className="h-4 w-4 mr-2" /> Financiamiento
               </Button>
               <Button
                 onClick={handleOpenInscripcion}
-                className="w-full bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+                className="w-full bg-blue-600 text-white hover:bg-blue-700 transition-colors rounded-full"
               >
                 <UserPlus className="h-4 w-4 mr-2" /> Inscribirse
               </Button>
@@ -138,4 +137,4 @@ const NavbarMobile = () => {
   )
 }
 
-export default NavbarMobile
+export default NavbarMobile;
