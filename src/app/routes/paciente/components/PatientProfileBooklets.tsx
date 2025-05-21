@@ -92,7 +92,7 @@ export default function PatientProfileBooklets() {
 
             {/* Contenido */}
             <CardContent className="py-6 text-center space-y-3">
-              <p className="text-lg font-semibold text-gray-800">{`Manejo de ${item.title}`}</p>
+              <p className="text-lg font-semibold text-gray-800">{`${item.title}`}</p>
               <a
                 href={item.link}
                 target="_blank"

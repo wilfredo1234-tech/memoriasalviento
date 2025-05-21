@@ -41,6 +41,4 @@ yarn-error.log*
 next-env.d.ts
 public/consulta*.png
 public/consulta*.png
-public/Tarifascuidador.pdf
-public/Tarifasfamilia.pdf
-public/Tarifaspaciente.pdf
+
